@@ -2,15 +2,17 @@
   "name": "mytuscaloosaheart",
   "version": "1.0.0",
   "description": "Personal website for Chase Martin",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
     "express": "^4.17.1",
     "helmet": "^4.4.1",
+    "path": "^0.12.7",
     "pug": "^3.0.2"
   }
 }
