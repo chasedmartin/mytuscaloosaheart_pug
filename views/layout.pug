@@ -10,5 +10,8 @@ html
         link(rel="stylesheet" href="./css/bootstrap.min.css")
         script(src="./js/bootstrap.min.js")
     body
-        div#root
-            block layout-content
+        include navbar.pug
+        block layout-content
+        footer(class="text-end p-3 footer")
+            .container
+                span.text-muted Not just bones
